@@ -43,7 +43,12 @@
 
 ---
 
-## 6. Future Scope
+## 7. Open Source Repository
+* **GitHub Link**: [https://github.com/vijaybarhate/edutrack-ai](https://github.com/vijaybarhate/edutrack-ai)
+
+---
+
+## 8. Future Scope
 * **Chatbot Tutor**: Integrate a generative AI chatbot tutor using Google Gemini API to provide students with immediate, subject-specific tutoring assistance on their weakest topics.
 * **Mobile Application**: Build a cross-platform mobile companion app for students and parents to view weekly progress reports and study plans on the go.
 * **LMS Integration**: Create integration plugins for standard Learning Management Systems (LMS) like Moodle, Canvas, or Google Classroom to automatically sync attendance and grades.

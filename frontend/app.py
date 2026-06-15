@@ -29,16 +29,17 @@ st.markdown("""
     }
     
     .main-title {
-        font-size: 3rem;
+        font-size: clamp(2rem, 5vw, 3.5rem);
         font-weight: 700;
         background: linear-gradient(135deg, #FF4B4B, #FF8F8F);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-bottom: 0.5rem;
+        line-height: 1.2;
     }
     
     .subtitle {
-        font-size: 1.2rem;
+        font-size: clamp(1rem, 2vw, 1.2rem);
         color: #6c757d;
         margin-bottom: 2rem;
     }
@@ -50,6 +51,12 @@ st.markdown("""
         box-shadow: 0 4px 6px rgba(0,0,0,0.05);
         border: 1px solid #eaeaea;
         transition: transform 0.2s;
+        height: 100%;
+    }
+    
+    @media (max-width: 768px) {
+        .main-title { font-size: 2.2rem; }
+        .metric-card { padding: 1rem; }
     }
     
     .metric-card:hover {
