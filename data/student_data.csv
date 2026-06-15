@@ -1,0 +1,251 @@
+StudentID,Name,Subject,Attendance_Rate,Study_Hours,Midterm_Score,Past_Score,Final_Score,At_Risk
+1001,James Smith,Math,66.0,4.0,61.5,62.0,50.2,0
+1001,James Smith,Science,65.0,6.0,50.5,63.0,52.2,0
+1001,James Smith,English,74.0,7.0,66.4,52.0,61.0,0
+1001,James Smith,History,71.0,7.0,68.1,68.0,65.5,0
+1001,James Smith,Computer Science,71.0,4.0,49.8,50.0,46.1,1
+1002,Mary Johnson,Math,65.0,3.0,40.2,25.0,39.4,1
+1002,Mary Johnson,Science,72.0,3.0,43.3,25.0,36.2,1
+1002,Mary Johnson,English,74.0,2.0,46.9,42.0,43.2,1
+1002,Mary Johnson,History,74.0,1.0,37.0,25.0,30.7,1
+1002,Mary Johnson,Computer Science,70.0,1.0,41.5,27.0,41.2,1
+1003,John Williams,Math,60.0,1.0,38.2,52.0,37.5,1
+1003,John Williams,Science,57.0,2.0,51.1,43.0,42.9,1
+1003,John Williams,English,54.0,1.0,38.6,44.0,40.3,1
+1003,John Williams,History,54.0,1.0,41.0,51.0,36.4,1
+1003,John Williams,Computer Science,57.0,2.0,52.5,64.0,43.6,1
+1004,Patricia Brown,Math,78.0,9.0,73.6,72.0,76.0,0
+1004,Patricia Brown,Science,80.0,6.0,57.2,69.0,54.1,0
+1004,Patricia Brown,English,82.0,6.0,65.6,60.0,57.9,0
+1004,Patricia Brown,History,81.0,8.0,77.2,74.0,74.0,0
+1004,Patricia Brown,Computer Science,82.0,5.0,72.1,73.0,67.3,0
+1005,Robert Jones,Math,82.0,2.0,52.6,60.0,60.1,0
+1005,Robert Jones,Science,76.0,5.0,58.5,62.0,66.3,0
+1005,Robert Jones,English,77.0,2.0,51.9,71.0,60.4,0
+1005,Robert Jones,History,80.0,5.0,47.9,54.0,48.2,1
+1005,Robert Jones,Computer Science,78.0,3.0,51.7,58.0,46.1,1
+1006,Jennifer Garcia,Math,57.0,1.0,51.5,64.0,42.7,1
+1006,Jennifer Garcia,Science,64.0,3.0,44.0,51.0,42.8,1
+1006,Jennifer Garcia,English,65.0,2.0,49.1,56.0,52.5,0
+1006,Jennifer Garcia,History,56.0,2.0,42.4,56.0,35.7,1
+1006,Jennifer Garcia,Computer Science,64.0,1.0,42.5,55.0,40.7,1
+1007,Michael Miller,Math,62.0,1.0,26.7,26.0,37.8,1
+1007,Michael Miller,Science,72.0,3.0,38.4,28.0,36.4,1
+1007,Michael Miller,English,69.0,5.0,53.0,35.0,55.4,0
+1007,Michael Miller,History,63.0,1.0,39.4,30.0,39.3,1
+1007,Michael Miller,Computer Science,69.0,4.0,53.1,27.0,42.8,1
+1008,Linda Davis,Math,66.0,1.0,49.2,44.0,49.4,1
+1008,Linda Davis,Science,65.0,3.0,50.6,46.0,46.2,1
+1008,Linda Davis,English,71.0,3.0,37.6,41.0,33.8,1
+1008,Linda Davis,History,65.0,1.0,47.6,46.0,49.8,1
+1008,Linda Davis,Computer Science,63.0,3.0,48.0,46.0,37.6,1
+1009,William Rodriguez,Math,99.0,12.0,84.2,90.0,87.2,0
+1009,William Rodriguez,Science,89.0,9.0,87.5,88.0,76.9,0
+1009,William Rodriguez,English,89.0,8.0,83.8,89.0,88.9,0
+1009,William Rodriguez,History,89.0,9.0,74.6,94.0,76.0,0
+1009,William Rodriguez,Computer Science,90.0,12.0,81.7,82.0,89.1,0
+1010,Elizabeth Martinez,Math,67.0,1.0,47.9,51.0,52.1,0
+1010,Elizabeth Martinez,Science,61.0,1.0,43.1,51.0,39.8,1
+1010,Elizabeth Martinez,English,60.0,2.0,54.1,49.0,47.7,1
+1010,Elizabeth Martinez,History,59.0,1.0,44.4,45.0,35.1,1
+1010,Elizabeth Martinez,Computer Science,61.0,3.0,41.6,41.0,37.6,1
+1011,David Hernandez,Math,93.0,7.0,77.0,89.0,85.1,0
+1011,David Hernandez,Science,90.0,10.0,73.7,82.0,74.5,0
+1011,David Hernandez,English,87.0,6.0,67.9,88.0,70.2,0
+1011,David Hernandez,History,89.0,10.0,77.8,86.0,80.7,0
+1011,David Hernandez,Computer Science,90.0,9.0,72.8,88.0,82.5,0
+1012,Barbara Lopez,Math,87.0,7.0,80.8,82.0,81.6,0
+1012,Barbara Lopez,Science,86.0,5.0,66.0,89.0,60.7,0
+1012,Barbara Lopez,English,93.0,9.0,83.3,84.0,78.2,0
+1012,Barbara Lopez,History,90.0,7.0,72.2,72.0,69.8,0
+1012,Barbara Lopez,Computer Science,90.0,5.0,75.1,86.0,68.2,0
+1013,Richard Gonzalez,Math,90.0,6.0,76.4,84.0,73.0,0
+1013,Richard Gonzalez,Science,89.0,7.0,64.7,80.0,76.4,0
+1013,Richard Gonzalez,English,95.0,7.0,73.8,78.0,73.4,0
+1013,Richard Gonzalez,History,98.0,6.0,75.0,76.0,75.8,0
+1013,Richard Gonzalez,Computer Science,92.0,6.0,82.2,79.0,84.3,0
+1014,Susan Wilson,Math,84.0,5.0,55.7,50.0,49.9,1
+1014,Susan Wilson,Science,88.0,7.0,61.5,46.0,67.7,0
+1014,Susan Wilson,English,83.0,7.0,73.9,63.0,67.8,0
+1014,Susan Wilson,History,88.0,3.0,59.5,46.0,53.8,0
+1014,Susan Wilson,Computer Science,83.0,6.0,62.5,59.0,64.6,0
+1015,Joseph Anderson,Math,73.0,6.0,62.0,69.0,57.9,0
+1015,Joseph Anderson,Science,78.0,6.0,58.5,66.0,61.8,0
+1015,Joseph Anderson,English,68.0,7.0,62.9,70.0,60.9,0
+1015,Joseph Anderson,History,77.0,7.0,69.0,77.0,74.5,0
+1015,Joseph Anderson,Computer Science,78.0,6.0,71.2,71.0,74.3,0
+1016,Jessica Thomas,Math,75.0,5.0,56.9,64.0,58.7,0
+1016,Jessica Thomas,Science,72.0,2.0,40.5,54.0,42.7,1
+1016,Jessica Thomas,English,71.0,5.0,63.5,69.0,58.6,0
+1016,Jessica Thomas,History,76.0,4.0,51.5,62.0,45.7,1
+1016,Jessica Thomas,Computer Science,73.0,4.0,59.1,52.0,61.0,0
+1017,Thomas Taylor,Math,57.0,2.0,46.8,39.0,43.3,1
+1017,Thomas Taylor,Science,55.0,3.0,51.0,47.0,51.5,0
+1017,Thomas Taylor,English,54.0,2.0,34.8,36.0,34.9,1
+1017,Thomas Taylor,History,57.0,2.0,40.2,46.0,45.4,1
+1017,Thomas Taylor,Computer Science,50.0,1.0,33.5,33.0,33.5,1
+1018,Sarah Moore,Math,88.0,9.0,67.7,75.0,77.8,0
+1018,Sarah Moore,Science,94.0,8.0,81.9,85.0,73.4,0
+1018,Sarah Moore,English,92.0,9.0,68.6,80.0,78.8,0
+1018,Sarah Moore,History,91.0,6.0,75.7,84.0,78.9,0
+1018,Sarah Moore,Computer Science,95.0,10.0,88.2,85.0,85.5,0
+1019,Charles Jackson,Math,82.0,4.0,55.0,67.0,49.2,1
+1019,Charles Jackson,Science,89.0,5.0,56.9,72.0,55.7,0
+1019,Charles Jackson,English,82.0,4.0,59.5,77.0,53.7,0
+1019,Charles Jackson,History,85.0,4.0,63.8,61.0,62.9,0
+1019,Charles Jackson,Computer Science,84.0,4.0,59.3,66.0,53.4,0
+1020,Karen Martin,Math,92.0,1.0,44.2,56.0,47.2,1
+1020,Karen Martin,Science,91.0,1.0,51.2,57.0,47.3,1
+1020,Karen Martin,English,91.0,1.0,61.8,67.0,57.5,0
+1020,Karen Martin,History,91.0,2.0,53.5,69.0,52.6,0
+1020,Karen Martin,Computer Science,91.0,1.0,53.6,58.0,56.5,0
+1021,Christopher Lee,Math,72.0,2.0,67.6,80.0,54.8,0
+1021,Christopher Lee,Science,76.0,1.0,61.5,82.0,59.7,0
+1021,Christopher Lee,English,81.0,5.0,51.3,63.0,61.3,0
+1021,Christopher Lee,History,77.0,1.0,66.7,76.0,64.3,0
+1021,Christopher Lee,Computer Science,73.0,4.0,68.7,68.0,61.7,0
+1022,Nancy Perez,Math,86.0,8.0,68.3,70.0,64.4,0
+1022,Nancy Perez,Science,85.0,7.0,76.0,67.0,75.7,0
+1022,Nancy Perez,English,89.0,4.0,58.1,67.0,67.0,0
+1022,Nancy Perez,History,86.0,6.0,62.8,63.0,63.9,0
+1022,Nancy Perez,Computer Science,90.0,4.0,57.2,72.0,59.5,0
+1023,Daniel Thompson,Math,87.0,8.0,60.1,60.0,66.4,0
+1023,Daniel Thompson,Science,83.0,8.0,73.5,56.0,73.1,0
+1023,Daniel Thompson,English,88.0,9.0,75.2,65.0,76.7,0
+1023,Daniel Thompson,History,84.0,8.0,65.2,60.0,66.1,0
+1023,Daniel Thompson,Computer Science,85.0,6.0,66.7,49.0,60.3,0
+1024,Lisa White,Math,72.0,4.0,42.6,43.0,44.0,1
+1024,Lisa White,Science,68.0,1.0,37.6,32.0,28.8,1
+1024,Lisa White,English,67.0,1.0,31.4,38.0,35.7,1
+1024,Lisa White,History,64.0,3.0,47.0,25.0,43.2,1
+1024,Lisa White,Computer Science,70.0,3.0,41.4,41.0,36.3,1
+1025,Matthew Harris,Math,81.0,4.0,68.7,61.0,55.2,0
+1025,Matthew Harris,Science,89.0,2.0,44.5,48.0,47.0,1
+1025,Matthew Harris,English,86.0,5.0,68.0,52.0,62.1,0
+1025,Matthew Harris,History,87.0,4.0,60.1,63.0,64.9,0
+1025,Matthew Harris,Computer Science,89.0,5.0,67.8,49.0,58.2,0
+1026,Betty Sanchez,Math,90.0,10.0,74.3,78.0,72.1,0
+1026,Betty Sanchez,Science,94.0,10.0,89.8,79.0,93.1,0
+1026,Betty Sanchez,English,91.0,10.0,79.3,80.0,86.9,0
+1026,Betty Sanchez,History,92.0,11.0,90.2,79.0,85.4,0
+1026,Betty Sanchez,Computer Science,96.0,10.0,92.8,83.0,84.4,0
+1027,Anthony Clark,Math,96.0,7.0,73.4,76.0,80.1,0
+1027,Anthony Clark,Science,91.0,8.0,71.2,71.0,80.9,0
+1027,Anthony Clark,English,94.0,8.0,86.2,80.0,74.6,0
+1027,Anthony Clark,History,96.0,7.0,65.4,79.0,65.0,0
+1027,Anthony Clark,Computer Science,96.0,9.0,73.9,69.0,69.3,0
+1028,Margaret Ramirez,Math,74.0,7.0,75.8,76.0,75.8,0
+1028,Margaret Ramirez,Science,71.0,7.0,69.7,81.0,73.2,0
+1028,Margaret Ramirez,English,80.0,6.0,58.8,65.0,63.2,0
+1028,Margaret Ramirez,History,74.0,7.0,70.2,77.0,61.4,0
+1028,Margaret Ramirez,Computer Science,75.0,4.0,60.7,72.0,54.1,0
+1029,Mark Lewis,Math,97.0,12.0,81.4,78.0,93.7,0
+1029,Mark Lewis,Science,98.0,13.0,93.1,82.0,86.3,0
+1029,Mark Lewis,English,99.0,11.0,79.8,69.0,88.6,0
+1029,Mark Lewis,History,91.0,9.0,89.4,86.0,83.8,0
+1029,Mark Lewis,Computer Science,99.0,11.0,86.8,66.0,90.3,0
+1030,Sandra Robinson,Math,50.0,1.0,42.0,40.0,36.4,1
+1030,Sandra Robinson,Science,50.0,3.0,41.2,32.0,33.8,1
+1030,Sandra Robinson,English,52.0,1.0,29.2,36.0,24.4,1
+1030,Sandra Robinson,History,48.0,3.0,34.6,32.0,26.5,1
+1030,Sandra Robinson,Computer Science,52.0,2.0,41.5,34.0,33.2,1
+1031,Donald Walker,Math,86.0,7.0,70.0,72.0,68.0,0
+1031,Donald Walker,Science,86.0,7.0,68.1,58.0,60.0,0
+1031,Donald Walker,English,86.0,6.0,75.2,64.0,65.6,0
+1031,Donald Walker,History,82.0,3.0,68.4,71.0,64.4,0
+1031,Donald Walker,Computer Science,81.0,6.0,66.0,59.0,55.7,0
+1032,Ashley Young,Math,83.0,4.0,62.3,64.0,54.2,0
+1032,Ashley Young,Science,84.0,6.0,71.5,55.0,73.2,0
+1032,Ashley Young,English,87.0,2.0,52.4,58.0,53.7,0
+1032,Ashley Young,History,84.0,2.0,61.0,48.0,49.5,1
+1032,Ashley Young,Computer Science,82.0,3.0,45.5,54.0,51.5,0
+1033,Steven Allen,Math,77.0,4.0,63.6,70.0,57.5,0
+1033,Steven Allen,Science,75.0,4.0,59.5,63.0,56.2,0
+1033,Steven Allen,English,76.0,7.0,69.2,67.0,66.9,0
+1033,Steven Allen,History,84.0,5.0,66.2,63.0,64.6,0
+1033,Steven Allen,Computer Science,75.0,4.0,62.0,73.0,60.9,0
+1034,Kimberly King,Math,84.0,4.0,55.0,68.0,56.8,0
+1034,Kimberly King,Science,83.0,7.0,68.4,73.0,69.9,0
+1034,Kimberly King,English,82.0,6.0,67.8,52.0,56.7,0
+1034,Kimberly King,History,82.0,6.0,76.5,74.0,73.9,0
+1034,Kimberly King,Computer Science,87.0,4.0,55.1,63.0,52.7,0
+1035,Paul Wright,Math,100.0,5.0,70.2,89.0,66.4,0
+1035,Paul Wright,Science,100.0,7.0,73.3,81.0,71.7,0
+1035,Paul Wright,English,100.0,7.0,80.2,95.0,77.9,0
+1035,Paul Wright,History,99.0,8.0,72.8,83.0,83.0,0
+1035,Paul Wright,Computer Science,98.0,6.0,77.1,82.0,78.6,0
+1036,Emily Scott,Math,59.0,1.0,37.8,43.0,40.7,1
+1036,Emily Scott,Science,53.0,1.0,37.8,51.0,43.7,1
+1036,Emily Scott,English,60.0,3.0,47.1,26.0,40.6,1
+1036,Emily Scott,History,62.0,1.0,41.4,48.0,44.7,1
+1036,Emily Scott,Computer Science,52.0,1.0,30.4,25.0,36.3,1
+1037,Andrew Torres,Math,52.0,4.0,49.2,39.0,49.4,1
+1037,Andrew Torres,Science,53.0,2.0,33.6,45.0,42.5,1
+1037,Andrew Torres,English,51.0,4.0,41.9,36.0,38.5,1
+1037,Andrew Torres,History,50.0,4.0,33.6,36.0,39.5,1
+1037,Andrew Torres,Computer Science,47.0,3.0,37.1,40.0,34.6,1
+1038,Donna Nguyen,Math,92.0,9.0,81.0,87.0,80.4,0
+1038,Donna Nguyen,Science,95.0,9.0,83.7,72.0,79.0,0
+1038,Donna Nguyen,English,95.0,6.0,71.0,90.0,65.5,0
+1038,Donna Nguyen,History,94.0,6.0,72.2,83.0,69.8,0
+1038,Donna Nguyen,Computer Science,94.0,5.0,68.7,70.0,66.7,0
+1039,Joshua Hill,Math,71.0,3.0,44.5,55.0,41.0,1
+1039,Joshua Hill,Science,70.0,5.0,68.2,69.0,57.5,0
+1039,Joshua Hill,English,68.0,6.0,52.5,69.0,64.6,0
+1039,Joshua Hill,History,75.0,5.0,47.8,55.0,59.2,0
+1039,Joshua Hill,Computer Science,75.0,5.0,63.1,59.0,65.8,0
+1040,Michelle Flores,Math,44.0,1.0,43.2,40.0,37.7,1
+1040,Michelle Flores,Science,50.0,4.0,48.8,48.0,53.2,0
+1040,Michelle Flores,English,43.0,3.0,52.1,52.0,42.3,1
+1040,Michelle Flores,History,45.0,3.0,42.3,51.0,46.2,1
+1040,Michelle Flores,Computer Science,43.0,3.0,44.0,49.0,42.3,1
+1041,Kenneth Green,Math,77.0,2.0,50.3,75.0,57.3,0
+1041,Kenneth Green,Science,78.0,4.0,51.9,70.0,57.5,0
+1041,Kenneth Green,English,81.0,5.0,67.5,72.0,57.9,0
+1041,Kenneth Green,History,80.0,6.0,59.5,73.0,70.7,0
+1041,Kenneth Green,Computer Science,86.0,3.0,59.0,72.0,54.0,0
+1042,Dorothy Adams,Math,85.0,7.0,70.8,55.0,59.6,0
+1042,Dorothy Adams,Science,82.0,5.0,59.3,62.0,60.9,0
+1042,Dorothy Adams,English,82.0,5.0,52.1,53.0,59.3,0
+1042,Dorothy Adams,History,92.0,4.0,47.6,43.0,60.3,0
+1042,Dorothy Adams,Computer Science,88.0,6.0,62.3,54.0,59.7,0
+1043,Kevin Nelson,Math,77.0,5.0,68.4,61.0,55.9,0
+1043,Kevin Nelson,Science,82.0,7.0,70.8,69.0,76.1,0
+1043,Kevin Nelson,English,81.0,8.0,69.3,80.0,79.4,0
+1043,Kevin Nelson,History,81.0,7.0,63.7,61.0,71.5,0
+1043,Kevin Nelson,Computer Science,75.0,7.0,70.1,76.0,61.4,0
+1044,Carol Baker,Math,53.0,1.0,32.0,46.0,25.4,1
+1044,Carol Baker,Science,51.0,2.0,45.2,54.0,40.6,1
+1044,Carol Baker,English,59.0,3.0,41.0,58.0,47.5,1
+1044,Carol Baker,History,49.0,2.0,31.4,45.0,35.7,1
+1044,Carol Baker,Computer Science,58.0,2.0,57.8,61.0,54.7,0
+1045,Brian Hall,Math,84.0,5.0,52.5,58.0,61.6,0
+1045,Brian Hall,Science,83.0,2.0,56.9,60.0,62.2,0
+1045,Brian Hall,English,81.0,4.0,53.5,55.0,56.5,0
+1045,Brian Hall,History,85.0,1.0,47.5,63.0,57.3,0
+1045,Brian Hall,Computer Science,82.0,2.0,67.8,69.0,56.2,0
+1046,Amanda Rivera,Math,46.0,4.0,30.7,34.0,31.1,1
+1046,Amanda Rivera,Science,51.0,3.0,51.1,48.0,50.9,0
+1046,Amanda Rivera,English,49.0,4.0,44.1,47.0,38.7,1
+1046,Amanda Rivera,History,51.0,1.0,46.3,40.0,39.5,1
+1046,Amanda Rivera,Computer Science,44.0,4.0,43.4,32.0,33.1,1
+1047,George Campbell,Math,80.0,3.0,48.0,60.0,59.1,0
+1047,George Campbell,Science,88.0,4.0,51.0,59.0,61.4,0
+1047,George Campbell,English,84.0,2.0,62.3,66.0,65.7,0
+1047,George Campbell,History,86.0,1.0,48.2,44.0,41.0,1
+1047,George Campbell,Computer Science,79.0,2.0,57.0,58.0,59.2,0
+1048,Melissa Mitchell,Math,90.0,4.0,63.1,66.0,55.3,0
+1048,Melissa Mitchell,Science,85.0,4.0,57.4,74.0,63.9,0
+1048,Melissa Mitchell,English,94.0,4.0,58.7,67.0,63.2,0
+1048,Melissa Mitchell,History,94.0,6.0,64.8,53.0,65.9,0
+1048,Melissa Mitchell,Computer Science,86.0,5.0,60.1,78.0,64.4,0
+1049,Edward Carter,Math,95.0,3.0,66.3,68.0,71.5,0
+1049,Edward Carter,Science,90.0,3.0,53.0,57.0,52.9,0
+1049,Edward Carter,English,88.0,6.0,56.6,55.0,56.3,0
+1049,Edward Carter,History,86.0,5.0,66.0,52.0,70.2,0
+1049,Edward Carter,Computer Science,94.0,5.0,67.9,45.0,67.6,0
+1050,Deborah Roberts,Math,52.0,2.0,47.2,56.0,46.0,1
+1050,Deborah Roberts,Science,54.0,4.0,50.0,48.0,45.5,1
+1050,Deborah Roberts,English,49.0,2.0,41.0,61.0,43.4,1
+1050,Deborah Roberts,History,52.0,4.0,51.2,59.0,56.3,0
+1050,Deborah Roberts,Computer Science,47.0,4.0,55.7,56.0,44.9,1
