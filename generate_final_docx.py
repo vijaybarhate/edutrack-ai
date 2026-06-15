@@ -163,10 +163,16 @@ def create_docx():
     doc.add_page_break()
 
     # Section 7
-    doc.add_heading('7. Open Source Repository', level=1)
+    doc.add_heading('7. Open Source Repository & Deployment', level=1)
     p = doc.add_paragraph()
     p.add_run('GitHub Link: ').bold = True
-    p.add_run('https://github.com/vijaybarhate/edutrack-ai')
+    p.add_run('https://github.com/vijaybarhate/edutrack-ai\n')
+    
+    p.add_run('Live Application: ').bold = True
+    p.add_run('https://edutrack-ai-01.streamlit.app\n')
+    
+    p.add_run('Backend API: ').bold = True
+    p.add_run('https://edutrack-backend-dsss.onrender.com')
 
     # Section 8
     doc.add_heading('8. Future Scope', level=1)

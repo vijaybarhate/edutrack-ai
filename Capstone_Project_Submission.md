@@ -45,6 +45,8 @@
 
 ## 7. Open Source Repository
 * **GitHub Link**: [https://github.com/vijaybarhate/edutrack-ai](https://github.com/vijaybarhate/edutrack-ai)
+* **Live Application**: [https://edutrack-ai-01.streamlit.app](https://edutrack-ai-01.streamlit.app)
+* **Backend API**: [https://edutrack-backend-dsss.onrender.com](https://edutrack-backend-dsss.onrender.com)
 
 ---
 

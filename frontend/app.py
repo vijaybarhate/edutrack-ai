@@ -16,8 +16,15 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# FastAPI URL
-API_URL = "http://localhost:8000"
+# FastAPI URL Configuration
+def get_api_url():
+    # Try Streamlit Secrets first (Standard for Streamlit Cloud)
+    if "API_URL" in st.secrets:
+        return st.secrets["API_URL"]
+    # Fallback to Environment Variable (Standard for Docker/Render)
+    return os.getenv("API_URL", "http://localhost:8000")
+
+API_URL = get_api_url()
 
 # Custom Premium Styling
 st.markdown("""
@@ -227,7 +234,7 @@ if backend_alive:
         st.sidebar.markdown('ML Model: <span class="status-badge status-warning">Not Trained</span>', unsafe_allow_html=True)
 else:
     st.sidebar.markdown('API Status: <span class="status-badge status-danger">Disconnected</span>', unsafe_allow_html=True)
-    st.sidebar.warning("FastAPI backend (localhost:8000) is offline. Please start the backend server to enable database operations and ML predictions.")
+    st.sidebar.warning(f"FastAPI backend ({API_URL}) is offline. Please ensure the backend server is running and the API_URL is correctly configured in Streamlit Secrets.")
 
 st.sidebar.markdown("---")
 page = st.sidebar.radio(
