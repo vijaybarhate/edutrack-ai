@@ -52,13 +52,24 @@ st.markdown("""
     }
     
     .metric-card {
-        background: white;
         padding: 1.5rem;
         border-radius: 12px;
         box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-        border: 1px solid #eaeaea;
+        border: 1px solid rgba(128, 128, 128, 0.2);
         transition: transform 0.2s;
         height: 100%;
+    }
+    
+    .metric-label {
+        color: gray;
+        margin: 0;
+        font-size: 0.9rem;
+    }
+    
+    .metric-value {
+        margin: 0.5rem 0 0 0;
+        font-size: 2.2rem;
+        font-weight: 600;
     }
     
     @media (max-width: 768px) {
@@ -369,29 +380,29 @@ if page == "Overview Dashboard":
                 with col1:
                     st.markdown(f"""
                     <div class="metric-card">
-                        <p style="color: gray; margin: 0; font-size: 0.9rem;">Total Students</p>
-                        <h2 style="margin: 0.5rem 0 0 0; font-size: 2.2rem; font-weight: 600;">{total_students}</h2>
+                        <p class="metric-label">Total Students</p>
+                        <h2 class="metric-value">{total_students}</h2>
                     </div>
                     """, unsafe_allow_html=True)
                 with col2:
                     st.markdown(f"""
                     <div class="metric-card">
-                        <p style="color: gray; margin: 0; font-size: 0.9rem;">Avg Attendance</p>
-                        <h2 style="margin: 0.5rem 0 0 0; font-size: 2.2rem; font-weight: 600; color: #0d6efd;">{avg_attendance:.1f}%</h2>
+                        <p class="metric-label">Avg Attendance</p>
+                        <h2 class="metric-value" style="color: #0d6efd;">{avg_attendance:.1f}%</h2>
                     </div>
                     """, unsafe_allow_html=True)
                 with col3:
                     st.markdown(f"""
                     <div class="metric-card">
-                        <p style="color: gray; margin: 0; font-size: 0.9rem;">Avg Midterm Score</p>
-                        <h2 style="margin: 0.5rem 0 0 0; font-size: 2.2rem; font-weight: 600; color: #198754;">{avg_midterm:.1f}%</h2>
+                        <p class="metric-label">Avg Midterm Score</p>
+                        <h2 class="metric-value" style="color: #198754;">{avg_midterm:.1f}%</h2>
                     </div>
                     """, unsafe_allow_html=True)
                 with col4:
                     st.markdown(f"""
                     <div class="metric-card">
-                        <p style="color: gray; margin: 0; font-size: 0.9rem;">At-Risk Instances</p>
-                        <h2 style="margin: 0.5rem 0 0 0; font-size: 2.2rem; font-weight: 600; color: #dc3545;">{total_risk_subjects}</h2>
+                        <p class="metric-label">At-Risk Instances</p>
+                        <h2 class="metric-value" style="color: #dc3545;">{total_risk_subjects}</h2>
                     </div>
                     """, unsafe_allow_html=True)
                 
