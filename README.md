@@ -83,12 +83,15 @@ The dashboard will open automatically in your browser at `http://localhost:8501`
 
 ---
 
-## 📊 ML Ensemble Details
-The model is structured as a Scikit-Learn `Pipeline` containing:
-* **Preprocessing**: `ColumnTransformer` applying `StandardScaler` to numerical inputs (Attendance, Study Hours, Midterm, Past Score) and `OneHotEncoder` to categorical inputs (Subject).
-* **Classifier**: `VotingClassifier` performing soft-voting (averaging probabilities) of:
-  * **Random Forest Classifier**: For identifying complex non-linear combinations of scores and attendance.
-  * **Logistic Regression**: For robust linear baseline classification.
+## ☁️ Cloud Deployment Note (Render / Streamlit Cloud)
+On free-tier hosting like **Render**, the filesystem is "ephemeral." This means the SQLite database and trained ML model might reset if the server restarts or goes to sleep.
+
+**If the dashboard shows "Database Empty" or "Model Not Trained":**
+1. Go to the **Dataset Manager** tab in the live app.
+2. Download the `student_data.csv` from this repository.
+3. Upload it via the **CSV Uploader**.
+4. Click **Upload & Retrain System Model**.
+5. The system will be fully restored in seconds.
 
 ---
 

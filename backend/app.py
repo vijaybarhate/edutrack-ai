@@ -32,11 +32,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Paths
-BASE_DIR = "D:/lenovo LEAP/Capstone Project"
-DB_PATH = os.path.join(BASE_DIR, "data/edutrack.db")
-CSV_PATH = os.path.join(BASE_DIR, "data/student_data.csv")
-MODEL_PATH = os.path.join(BASE_DIR, "models/ensemble_model.pkl")
+# Paths (relative to root)
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DB_PATH = os.path.join(BASE_DIR, "data", "edutrack.db")
+CSV_PATH = os.path.join(BASE_DIR, "data", "student_data.csv")
+MODEL_PATH = os.path.join(BASE_DIR, "models", "ensemble_model.pkl")
 
 # Pydantic schemas
 class PredictRequestItem(BaseModel):

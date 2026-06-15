@@ -290,6 +290,11 @@ if page == "Overview Dashboard":
                 df_records = pd.DataFrame(all_records)
                 df_stats = pd.DataFrame(stats_data)
                 
+                if df_records.empty:
+                    st.warning("The database is currently empty. Please go to the 'Dataset Manager' tab and upload the student dataset to begin.")
+                    st.info("Sample file can be found at data/student_data.csv in the repository.")
+                    st.stop()
+                
                 # Calculate metrics
                 total_students = df_records['student_id'].nunique()
                 avg_attendance = df_records['attendance_rate'].mean()
